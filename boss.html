@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Boss </title> 
+    <link rel="stylesheet" href="bosscss.css">
+	<!--  -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+	<script src="boss.js"> </script>
+	<script src="data.js"> </script>
+</head>
+
+<body>
+
+	<center>
+		<div class="titre">
+			<img src="logoboss.png" />
+		</div>
+		
+		<br />
+
+		<table id="presentation" width="70%">
+			<thead>
+				<tr>
+					<th class="titretableau" style="border:solid 2px" colspan="2" > <br /> <img src="boss.gif" width="4%"> Les Différents Boss  <br /> <br /> </th>
+				</tr>
+
+			</thead>
+			<tbody>
+				<tr>
+				
+					<th>
+						<h1 style="text-align: left;"> <u>Boss de pré-Hardmode : <u> </h1>
+					</th>
+				
+				</tr>
+				<tr > 
+					<td> &emsp; Le Roi des gelées peut apparaître soi en utilisant une gelée couronnée, soi en tuant 150 gelées durant une pluie de gelées, soi de lui-même de façon aléatoire dans le tiers extérieurs de la carte. Comme tous les autres ennemis apparaissant naturellement, le Roi des gelées a plus de chance d'apparaître en étant proche d'une bougie d'eau ou sous l'effet d'une potion de combat. Le Roi des gelées est un bon défi pour un joueur débutant, et il peut être vaincu facilement en utilisant le terrain de façon stratégique.</td> 
+					<td style="background-image: url('bossback.png') ; border:solid 2px" > <img src="roigele.gif"> </td>
+				</tr>
+				
+				<tr>
+					
+					<td style="font-size: 18px;">
+
+						<br />
+						<ul>
+							<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Roi_Gelees, "Butins_Roi_Gelees")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins du Roi des Gelées :</span>
+								<ul>
+									<div id="Butins_Roi_Gelees">
+									</div><!-- Liste_Butinss_Roi_Gelees -->
+								</ul>
+							</li>
+
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+				
+				</tr>
+				
+				<tr>
+				
+					<td> &emsp; L'Œil de Cthulhu a 1 chance sur 3 d'apparaître au début de chaque nuit une fois que le joueur a 200 de santé ou plus, 3 PNJs ou plus habitants dans des maisons, et plus de 10 de défense. Il continuera d'apparaître jusqu'à ce qu'il soit vaincu pour la première fois. Il peut également être invoqué en utilisant un œil suspect durant la nuit. Il est généralement le premier boss auquel le joueur doit faire face. Il traverse les blocs et fait apparaître des serviteurs de Cthulhu. En mode Expert, l'Œil de Cthulhu enchaînera rapidement une série de charge durant sa deuxième phase, tout en attaquant de plus en plus souvent plus sa santé est basse. </td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="cthulhu.gif"> </td>
+				
+				</tr>
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+							<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Oeil_Cthulhu, "Butins_Oeil_Cthulhu")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins de l''Œil de Cthulhu :</span>
+								<ul>
+									<div id="Butins_Oeil_Cthulhu">
+									</div><!-- Liste__Oeil_Cthulhu -->
+								</ul>
+							</li>
+
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+					
+				</tr>
+				
+				<tr>
+				
+					<td>  &emsp; Le Dévoreur des mondes apparaîtra après que trois orbes de l'ombre soient brisés ou qu'un appât à ver soit utilisé. Le Dévoreur des mondes ne peut être invoqué que dans un monde contenant de la corruption, et peut être invoqué à n'importe quel moment de la journée. Si il parvient à s'échapper de la corruption, il s'en ira et disparaîtra.Le Dévoreur des mondes est le seul moyen d'obtenir des écailles de l'ombre dans le jeu, et lâche beaucoup de minerais de démonite. En mode Expert, le boss possède la faculté de tirer des projectiles vert foncé appelé bave vile sur vous, similaires à ceux tirés par les corrupteurs, un autre ennemi exclusif à la corruption.</td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="devoreur.png" width=80%> </td>
+				
+				</tr>
+				
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+						<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Devoreur_Mondes, "Butins_Devoreur_Mondes")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins du Dévoreur des Mondes :</span>
+							<ul>
+								<div id="Butins_Devoreur_Mondes">
+								</div><!-- Liste_Butinss_Devoreur_Mondes -->
+							</ul>
+						</li>
+
+						</ul>
+					
+					<p>  </p>
+						
+					</td>
+				
+				</tr>				
+				
+				<tr>
+				
+					<br /> <br /> <br />
+					<td>  &emsp; Le Cerveau de Cthulhu apparaîtra après que trois cœurs carmin soient brisés ou qu'une colonne sanglante soit utilisée. Le Cerveau de Cthulhu est le seul moyen d'obtenir des échantillons de tissu dans le jeu, et lâche beaucoup de minerais de carmitane, qui sont les équivalents aux objet de la corruption. En mode Expert, le Cerveau de Cthulhu aura plus de santé, et durant sa deuxième phase, il commencera à créer des illusions de soi-même pour charger le joueur. Plus la santé du Cerveau de Cthulhu est basse, plus les illusions deviennent difficiles à distinguer du vrai du fait qu'elles ressembleront exactement au Cerveau de Cthulhu. </td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="cerveau.gif"> </td>
+				
+				</tr>
+				
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+							<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Cerveau_Cthulhu, "Butins_Cerveau_Cthulhu")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins du Cerveau de Cthulhu :</span>
+								<ul>
+									<div id="Butins_Cerveau_Cthulhu">
+									</div><!-- Liste__Cerveau_Cthulhu -->
+								</ul>
+							</li>
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+				
+				</tr>
+				
+				<tr>
+					<td> &emsp;  La Reine des abeilles est invoquée en détruisant la larve de la Reine des abeilles, se trouvant entre les murs des ruches d'abeilles situées dans la jungle souterraine. Elle peut aussi être invoquée en utilisant une abeillemination à n'importe quel endroit dans le biome jungle. Elle est le seul moyen d'obtenir des cires d'abeille. La Reine des abeilles alterne entre charger sur le joueur et flotter au dessus de lui en invoquant des abeilles. En mode Expert, le taux auquel elle charge le joueur devient plus rapide plus sa santé est basse. Vaincre la Reine des abeilles permettra au marabout d'apparaître; outre cela, elle ne permet pas d'avancement majeur dans l'histoire principale, mais fournit quelques butins corrects pouvant aider le joueur à se préparer pour le combat contre le Mur de chair. </td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="abeille.gif"> </td>
+				
+				</tr>
+				
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+							<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Reine_Abeille, "Butins_Reine_Abeille")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins de la Reine des Abeilles :</span>
+								<ul>
+									<div id="Butins_Reine_Abeille">
+									</div><!-- Liste__Reine_Abeille -->
+								</ul>
+							</li>
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+				
+				</tr>
+				
+				<tr> 
+					<td> &emsp; Le Squeletron est invoqué en parlant au PNJ Vieil homme à l'entrée du donjon et en activant sa malédiction durant la nuit. S'il n'a pas été vaincu avant que la nuit ne se termine, le Squeletron attaquera et tuera le joueur d'un seul coup, avant de disparaître. Vaincre le Squeletron arrêtera l'apparition des gardiens de donjon, permettant l'accès au donjon. Il peut être invoqué de nouveau en tuant le Tailleur tout en étant équipé d'une poupée vaudou du tailleur durant la nuit. </td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="skeletron.png"> </td>
+				
+				</tr>
+				
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+						<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Squeletron, "Butins_Squeletron")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins du Squeletron :</span>
+							<ul>
+								<div id="Butins_Squeletron">
+								</div><!-- Liste_Squeletron -->
+							</ul>
+						</li>
+
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+				
+				</tr>
+				
+				<tr> 
+					<td> &emsp; Le Mur de chair est invoqué en lançant une poupée vaudou du guide dans un lac de lave lorsque le Guide est vivant. Il est considéré par les plupart des joueurs comme étant le boss du pré-Hardmode, le vaincre activera de façon irréversible le Hardmode dans votre monde. Le vaincre permettra aussi la création des objets d'invocation des différents boss du Hardmode. Il peut lâcher plusieurs objets puissants, l'un d'entre eux étant lâché à tous les coups est le supermarteau qui peut être utilisé pour briser les autels démoniaques ou les autels carmin afin de faire apparaître les nombreux minerais du Hardmode permettant d'avancer dans le jeu, soi-disant le cobalt ou le palladium, le mithril ou l'orichalque et l'adamantite ou le titane. </td>
+					<td style="background-image: url('bossback.png') ; border:solid 2px"> <img src="murdechair.gif" width="70%"> </td>
+				
+				</tr>
+				
+				<tr>
+				
+					<td style="font-size: 18px;">
+					
+					<br />
+					
+						<ul>
+							<li><span class="btn btn-primary mt-2 mb-2" onclick='MypopulateTableList(Butins_Mur_Chair, "Butins_Mur_Chair")'><i class="bi bi-arrow-down-circle"></i>&emsp;Butins du Mur de Chair :</span>
+								<ul>
+									<div id="Butins_Mur_Chair">
+									</div><!-- Liste__Mur_Chair -->
+								</ul>
+							</li>
+
+						</ul>
+					
+					<p>  </p>
+					
+					</td>
+				
+				</tr>				
+				
+			</tbody>	
+		</table>
+		<br /> <br />
+		<i> Pour retourner à  <a href="tp.html" style="text-decoration:none; color: #3FB41A;"> la page d'acceuil </a></i>
+	</center>		
+
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-image: url('Forest_background_1.jpg') ; 
+	background-attachment:fixed;
+	
+}	
+
+header {
+	width: 100%;
+	position:fixed; 
+	height:230px;
+    margin: -8px;
+	border-bottom: 2px solid #FFFFFF;
+	background-image:url('mv.png') ;
+	background-position: center;
+	background-repeat: no-repeat ;
+	background-size: 100%
+	
+}
+header2 {
+	width: 100%;
+	position:fixed; 
+	height:230px;
+    margin: -8px;
+	border-bottom: 2px solid #F1F1FF;
+	background-image:url('mv.png') ;
+	background-position: center;
+	background-repeat: no-repeat ;
+	background-size: 100%
+	
+}
+.imgnomsite {
+	display:block;
+	padding:0 px;
+}
+
+.sommaire {
+	text-shadow: 2px 2px 3px #000000;
+	text-align: right
+}
+
+#intro {}
+
+#biomes {}
+
+#boss {}
+
+.chlorophyte {
+	width: 20px
+}
+
+#presentation {
+    border: 2px solid #FFFFFF;
+    font-size: 24px;
+    text-shadow: 2px 2px 3px #000000;
+    color: #FFFFFF;
+	background-repeat: no-repeat;
+    background-image: url('plainefont.png');
+	background-size: cover;
+	padding: 10px
+}
+
+
+a:hover {
+	color: #FFFFFF
+}
+
+.titretableau {
+    font-size: 40px;
+}
+
+#biome {    
+	border: 2px solid #FFFFFF;
+    font-size: 24px;
+	color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-image: url('fondbiome.jpg');
+	background-size: cover;
+	text-shadow: 2px 2px 3px #B9B9B9;
+	padding: 10px
+	}
+	
+#lapin {
+	z-index: 1;
+}
+	
+	
+@media screen and(max-width: 500px) {
+	
+}
+
+
+@keyframes example {
+    from {
+		visibility:visible;
+    }
+    to {
+      visibility:hidden;
+	}
+}
